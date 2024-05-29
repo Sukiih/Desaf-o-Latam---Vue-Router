@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  background-image: url('https://previews.123rf.com/images/hypnocreative/hypnocreative1208/hypnocreative120800014/15050034-fondo-hermoso-de-los-dise%C3%B1os-de-alimentos-y-bebidas-con-la-ilustraci%C3%B3n-elegante-y-estilizada-de.jpg');
+
+}
+:root {
+  --main-bg-color: #044085a2;
+}
+
+.navbar {
+  background: var(--main-bg-color);
+}
+.navbar-brand img {
+  height: 3.3125rem;
+}
+#productos {
+  padding-top: 3.75rem;
+}
+#productos h1 {
+  padding: 60px 0px;
+}
+
+@media (max-width: 768px) {
+  #productos h1 {
+    font-size: 35px;
+    padding: 30px 0px;
+    margin-top: 30px;
+  }
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: #050916;
+}
+
+#Ahora-aceptamos {
+  background: #317985;
+}
+footer {
+  background: var(--main-bg-color);
+}
+footer img {
+  height: 6.25rem;
+}
+
+a {
+  text-decoration: none;
+}
